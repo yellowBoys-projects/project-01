@@ -7,7 +7,7 @@ import {Box,Typography,Stack,} from '@mui/material'
 export default function service() {
 	return (
 		<Box>
-			<Stack direction='row' spacing={7} sx={{position:'absolute',top:'590px' ,right:{lg:'7%'}}} justifyContent='center' >
+			<Stack direction='row' spacing={7} sx={{margin:{lg:'-30px 0 0 0 '}}} justifyContent='center' >
 				<ServiceCard img={Item01} alt={''} title={'free storage'}/>
 				<ServiceCard img={Item01} alt={''} title={'free storage'}/>
 				<ServiceCard img={Item01} alt={''} title={'free storage'}/>

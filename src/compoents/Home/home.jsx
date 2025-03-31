@@ -1,4 +1,4 @@
-import React from "react";
+  import React from "react";
 import "./home.style.scss";
 import LogoImg from "../../assets/logo.png";
 import HeroImg from "../../assets/banner-image.jpg";
