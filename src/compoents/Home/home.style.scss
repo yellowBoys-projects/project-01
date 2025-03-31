@@ -1,0 +1,14 @@
+.bg-banner{
+	background: url('../../assets/banner-bg.jpg');
+	width: 100vw;
+	height: 100vh;
+	border-radius: 0px 0px 100px 100px ;
+	color: white;
+}
+
+.heroimg-div{
+	img{border-radius: 50px;height: 450px;width: 400px}
+	position: relative;
+	.span-1{position: absolute;	bottom: 30px; left: 10px;background:blue;padding: 40px 30px ;border-radius: 100%;font-weight: 600}
+	.span-2{position: absolute;top: 40px;right: 50px;background:blue;padding: 30px 25px ;border-radius: 100%;font-weight: 600}
+}
