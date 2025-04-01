@@ -1,5 +1,9 @@
-#service-img{
-	padding: 20px;
-	border-radius: 100%;
-	background: #346bec;
+@media screen and (min-width: 458px) {
+	#service-img {
+		padding: 10px;
+		border-radius: 100%;
+		background: #346bec;
+		width: 70px;
+	}
+
 }
