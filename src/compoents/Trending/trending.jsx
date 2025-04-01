@@ -1,5 +1,9 @@
 import { Card, CardActions, CardContent, CardMedia, Button, Box, Typography, Stack } from '@mui/material'
-import Img from '../../assets/categories-01.jpg'
+import Img01 from '../../assets/categories-01.jpg'
+import Img02 from '../../assets/categories-03.jpg'
+import Img03 from '../../assets/categories-04.jpg'
+import Img04 from '../../assets/categories-05.jpg'
+
 import './trending.style.scss'
 
 export default function Trending() {
@@ -10,10 +14,10 @@ export default function Trending() {
 				<Typography variant='h6' sx={{ fontSize: { xs:'13px',lg: '16px' }, fontWeight: '400', padding: { lg: ' 0% 0% 0.2% 6%'},textAlign:'center' }}>trending</Typography>
 				<Typography variant='h2' sx={{ fontSize: {xs:'20px', lg: '25px' }, fontWeight: '500', padding: { xs:'0.5rem 0rem 0.9rem 0rem',lg: '0 0 0.1% 0%' } ,textAlign:'center'}}>trending games</Typography>
 				<Box className='trending-grid'>
-					<CardItem img={Img} alt={'...'} types='action' title='assasin creed' />
-					<CardItem img={Img} alt={'...'} types='action' title='assasin creed' />
-					<CardItem img={Img} alt={'...'} types='action' title='assasin creed' />
-					<CardItem img={Img} alt={'...'} types='action' title='assasin creed' />
+					<CardItem img={Img01} alt={'...'} types='action' title='assasin creed' />
+					<CardItem img={Img02} alt={'...'} types='action' title='assasin creed' />
+					<CardItem img={Img03} alt={'...'} types='action' title='assasin creed' />
+					<CardItem img={Img04} alt={'...'} types='action' title='assasin creed' />
 
 				</Box>
 			</Box>
@@ -25,10 +29,10 @@ export default function Trending() {
 
 export function CardItem(props) {
 	return (
-		<Card sx={{ maxWidth: {xs:350},margin:'0 auto' }}>
+		<Card sx={{ width: {xs:380},margin:'0 auto' }}>
 			<CardMedia
-				sx={{ height: 200, width: 340, backgroundColor: 'red', borderRadius: '10px' }}
-				image={Img}
+				sx={{ height: 200, width: 380, backgroundColor: 'red', borderRadius: '10px' }}
+				image={props.img}
 				title="green iguana"
 			/>
 

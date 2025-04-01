@@ -1,5 +1,9 @@
 import React from 'react'
 import Item01 from '../../assets/featured-01.png'
+import Item02 from '../../assets/featured-02.png'
+import Item03 from '../../assets/featured-03.png'
+import Item04 from '../../assets/featured-04.png'
+
 import './service.style.scss'
 import { Box, Typography, Stack, } from '@mui/material'
 
@@ -7,11 +11,11 @@ import { Box, Typography, Stack, } from '@mui/material'
 export default function service() {
 	return (
 		<Box>
-			<Stack direction='row' spacing={{ xs: 1 }} sx={{ margin: { xs: '  30px 5px ', lg: '-30px 0 0 0 ' } }} justifyContent='center' >
+			<Stack direction='row' spacing={{ xs: 1 }} sx={{ margin: { xs: '  30px auto 0px 10px  ', lg: '-30px 0 0 0 ' } }} justifyContent='center' >
 				<ServiceCard img={Item01} alt={''} title={'free storage'} />
-				<ServiceCard img={Item01} alt={''} title={'paid storage'} />
-				<ServiceCard img={Item01} alt={''} title={'cost  storage'} />
-				<ServiceCard img={Item01} alt={''} title={'service storage'} />
+				<ServiceCard img={Item02} alt={''} title={'paid storage'} />
+				<ServiceCard img={Item03} alt={''} title={'cost  storage'} />
+				<ServiceCard img={Item04} alt={''} title={'service storage'} />
 
 			</Stack>
 		</Box>

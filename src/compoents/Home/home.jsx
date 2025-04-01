@@ -87,7 +87,7 @@ function Content() {
             purposes. please tell friends about tempalteMo.
           </Typography>
           <Stack action="" direction='row' justifyContent='center' sx={{ margin: { xs: '9px 0px', lg: '10px 0 ' },padding:{xs:'5px'} }}>
-            <TextField variant="outlined" sx={{ width: { xs: 200 }, height: { xs: 40 } }} />
+            <TextField variant="outlined" sx={{ width: { xs: 200 }, height: { xs: 30 } }} />
             <Button variant="contained" color="error" sx={{fontSize:{xs:'12px'}, width: { xs: 114 }, height: { xs: 30 } }}>
               search now
             </Button>
