@@ -1,3 +1,55 @@
+@media screen and (max-width:458px) {
+	.bg-banner {
+		background: url('../../assets/banner-bg.jpg');
+		width: 100vw;
+		height: 100vh;
+		border-radius: 0px 0px 100px 100px;
+		color: white;
+	}
+
+	#logo-img {
+		width: 80px !important;
+		height: 30px;
+	}
+
+	.heroimg-div {
+		img {
+			border-radius: 50px;
+			height: 450px;
+			width: 400px
+		}
+
+		position: relative;
+
+		.span-1 {
+			position: absolute;
+			bottom: 30px;
+			left: 10px;
+			background: blue;
+			padding: 10px 10px;
+			border-radius: 100%;
+			font-weight: 600
+		}
+
+		.span-2 {
+			position: absolute;
+			top: 40px;
+			right: 50px;
+			background: blue;
+			padding: 10px 15px;
+			border-radius: 100%;
+			font-weight: 600
+		}
+	}
+
+	#banner-img {
+		width: 400px;
+		height: 350px;
+	}
+
+
+
+}
 @media screen and (min-width: 458px) {
 
 
