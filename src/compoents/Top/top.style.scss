@@ -1,3 +1,15 @@
-.top-section {
-	margin: 50px 0px;
+@media  screen and (max-width: 458px) {
+	.top-section {
+	margin: 10px 10px;
+}
+
+.grid{
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 10px;
+	margin: 0 10px;
+
+}
+#card-01{
+}
 }
