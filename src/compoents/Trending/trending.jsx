@@ -25,9 +25,9 @@ export default function Trending() {
 
 export function CardItem(props) {
 	return (
-		<Card sx={{ maxWidth: {xs:200},margin:'0 auto' }}>
+		<Card sx={{ maxWidth: {xs:350},margin:'0 auto' }}>
 			<CardMedia
-				sx={{ height: 200, width: 160, backgroundColor: 'red', borderRadius: '10px' }}
+				sx={{ height: 200, width: 340, backgroundColor: 'red', borderRadius: '10px' }}
 				image={Img}
 				title="green iguana"
 			/>
@@ -35,12 +35,12 @@ export function CardItem(props) {
 			<CardContent sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
 				<Box>
 
-					<Typography sx={{fontSize:{xs:'12px'},textAlign:'start'}}>{props.types}</Typography>
-					<Typography sx={{fontSize:{xs:'15px'},fontWeight:'500',textAlign:'start'}}> {props.title}</Typography>
+					<Typography sx={{fontSize:{xs:'16px'},textAlign:'start'}}>{props.types}</Typography>
+					<Typography sx={{fontSize:{xs:'20px'},fontWeight:'500',textAlign:'start'}}> {props.title}</Typography>
 				</Box>
 
 				<CardActions>
-					<Button variant='contained' color='error' sx={{padding:{xs:'0px 0px 0px 0px'}}}>more</Button>
+					<Button variant='contained' color='error' sx={{padding:{xs:'5px 3px 3px 5px'}}}>more</Button>
 				</CardActions>
 
 			</CardContent>
