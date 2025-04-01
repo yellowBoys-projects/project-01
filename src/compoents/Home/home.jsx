@@ -66,7 +66,7 @@ function Layout() {
           <Link sx={{ color: 'white' }}>blog</Link>
           <Link sx={{ color: 'white' }}>about</Link>
         </Box>
-        <Button color="error" variant="contained" sx={{ padding: {xs:'5px', lg: '4px 20px' }, borderRadius: '8px', fontSize: {xs:'13px', lg: '16px' },fontWeight:'400', display: { xs: '', sm: '', md: '', } }}>
+        <Button color="error" variant="contained" sx={{ padding: {xs:'2px', lg: '4px 20px' }, borderRadius: '8px', fontSize: {xs:'12px', lg: '16px' },fontWeight:'400', display: { xs: '', sm: '', md: '', } }}>
           sign in
         </Button>
       </Stack>
@@ -77,18 +77,18 @@ function Layout() {
 function Content() {
   return (
     <Box>
-      <Stack direction={{ xs: 'col', lg: 'row' }} alignItems='center' justifyContent='space-between' spacing={{ xs: 10 }}>
+      <Stack direction={{ xs: 'col', lg: 'row' }} alignItems='center' justifyContent='space-between' spacing={{ xs: 1 }}>
         <Box sx={{ textAlign: 'center' ,maxWidth:300}}>
-          <Typography variant='p' sx={{ color: { xs: 'orange', sm: 'blue', md: 'green', lg: 'red', xl: 'yellow' }, fontSize:{  xs: '16px' } }}>welcome to lugx</Typography>
-          <Typography variant='h1' sx={{ fontSize: { xs: '25px', lg: '60px' }, fontWeight: '600', padding: { xs: '10px' } }}>best gaming site ever!</Typography>
-          <Typography variant='p' sx={{ fontSize: { xs: '15px', lg: '15px' },padding:{xs:'0px 0px 0px 0px '}  }}>
+          <Typography variant='p' sx={{ color: { xs: 'orange', sm: 'blue', md: 'green', lg: 'red', xl: 'yellow' }, fontSize:{  xs: '11px' } }}>welcome to lugx</Typography>
+          <Typography variant='h1' sx={{ fontSize: { xs: '20px', lg: '60px' }, fontWeight: '500', padding: { xs: '6px' } }}>best gaming site ever!</Typography>
+          <Typography variant='p' sx={{ fontSize: { xs: '11px', lg: '15px' },padding:{xs:'0px 0px 0px 0px '}  }}>
             lugx gaming is free bootstrap 5 html css template for your gaming
             websites. you can download and use this layout for commercial
             purposes. please tell friends about tempalteMo.
           </Typography>
-          <Stack action="" direction='row' justifyContent='center' sx={{ margin: { xs: '10px 0px', lg: '10px 0 ' },padding:{xs:'5px'} }}>
-            <TextField variant="outlined" sx={{ width: { xs: 220 }, height: { xs: 30 } }} />
-            <Button variant="contained" color="error" sx={{fontSize:{xs:'11px'}, width: { xs: 130 }, height: { xs: 30 } }}>
+          <Stack action="" direction='row' justifyContent='center' sx={{ margin: { xs: '9px 0px', lg: '10px 0 ' },padding:{xs:'5px'} }}>
+            <TextField variant="outlined" sx={{ width: { xs: 200 }, height: { xs: 30 } }} />
+            <Button variant="contained" color="error" sx={{fontSize:{xs:'10px'}, width: { xs: 110 }, height: { xs: 30 } }}>
               search now
             </Button>
           </Stack>

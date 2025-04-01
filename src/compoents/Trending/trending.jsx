@@ -6,16 +6,16 @@ export default function Trending() {
 	return (
 		<section className='trending-section'>
 
-			<Box sx={{ margin: { lg: '10px 40px' } }}>
-				<Typography variant='h6' sx={{ fontSize: { lg: '16px' }, fontWeight: '400', padding: { lg: ' 0% 0% 0.2% 6%' } }}>trending</Typography>
-				<Typography variant='h2' sx={{ fontSize: { lg: '25px' }, fontWeight: '500', padding: { lg: '0 0 0.9% 6%' } }}>trending games</Typography>
-				<Stack sx={{ margin: { lg: '20px 0px' } }} direction='row' spacing={5} justifyContent='center' alignItems='center'>
+			<Box sx={{ margin: { xs:'',lg: '10px 40px' } }}>
+				<Typography variant='h6' sx={{ fontSize: { xs:'13px',lg: '16px' }, fontWeight: '400', padding: { lg: ' 0% 0% 0.2% 6%'},textAlign:'center' }}>trending</Typography>
+				<Typography variant='h2' sx={{ fontSize: {xs:'20px', lg: '25px' }, fontWeight: '500', padding: { xs:'0.5rem 0rem 0.9rem 0rem',lg: '0 0 0.1% 0%' } ,textAlign:'center'}}>trending games</Typography>
+				<Box className='trending-grid'>
 					<CardItem img={Img} alt={'...'} types='action' title='assasin creed' />
 					<CardItem img={Img} alt={'...'} types='action' title='assasin creed' />
 					<CardItem img={Img} alt={'...'} types='action' title='assasin creed' />
 					<CardItem img={Img} alt={'...'} types='action' title='assasin creed' />
 
-				</Stack>
+				</Box>
 			</Box>
 		</section>
 
@@ -25,9 +25,9 @@ export default function Trending() {
 
 export function CardItem(props) {
 	return (
-		<Card sx={{ maxWidth: 500 }}>
+		<Card sx={{ maxWidth: {xs:200},margin:'0 auto' }}>
 			<CardMedia
-				sx={{ height: 240, width: 250, backgroundColor: 'red', borderRadius: '10px' }}
+				sx={{ height: 200, width: 160, backgroundColor: 'red', borderRadius: '10px' }}
 				image={Img}
 				title="green iguana"
 			/>
@@ -35,12 +35,12 @@ export function CardItem(props) {
 			<CardContent sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
 				<Box>
 
-					<Typography>{props.types}</Typography>
-					<Typography>{props.title}</Typography>
+					<Typography sx={{fontSize:{xs:'12px'},textAlign:'start'}}>{props.types}</Typography>
+					<Typography sx={{fontSize:{xs:'15px'},fontWeight:'500',textAlign:'start'}}> {props.title}</Typography>
 				</Box>
 
 				<CardActions>
-					<Button>more</Button>
+					<Button variant='contained' color='error' sx={{padding:{xs:'0px 0px 0px 0px'}}}>more</Button>
 				</CardActions>
 
 			</CardContent>
