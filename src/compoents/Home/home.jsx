@@ -66,7 +66,7 @@ function Layout() {
           <Link sx={{ color: 'white' }}>blog</Link>
           <Link sx={{ color: 'white' }}>about</Link>
         </Box>
-        <Button color="error" variant="contained" sx={{ padding: {xs:'6px', lg: '4px 20px' }, borderRadius: '5px', fontSize: {xs:'0.9rem', lg: '16px' },fontWeight:'500', display: { xs: '', sm: '', md: '', } }}>
+        <Button color="error" variant="contained" sx={{ padding: {xs:'0px', lg: '4px 20px' }, borderRadius: '5px', fontSize: {xs:'0.8rem', lg: '16px' },fontWeight:'500', display: { xs: '', sm: '', md: '', } }}>
           sign in
         </Button>
       </Stack>
@@ -79,16 +79,16 @@ function Content() {
     <Box>
       <Stack direction={{ xs: 'col', lg: 'row' }} alignItems='center' justifyContent='space-between' spacing={{ xs: 1 }}>
         <Box sx={{ textAlign: 'center' ,maxWidth:{xs:320}}}>
-          <Typography variant='p' sx={{ color: { xs: 'orange', sm: 'blue', md: 'green', lg: 'red', xl: 'yellow' }, fontSize:{  xs: '12px' } }}>welcome to lugx</Typography>
-          <Typography variant='h1' sx={{ fontSize: { xs: '30px', lg: '60px' }, fontWeight: '500', padding: { xs: '6px' } }}>best gaming site ever!</Typography>
-          <Typography variant='p' sx={{ fontSize: { xs: '1rem', lg: '15px' },padding:{xs:'0px 0px 0px 0px '}  }}>
+          <Typography variant='p' sx={{ color: { xs: 'orange', sm: 'blue', md: 'green', lg: 'red', xl: 'yellow' }, fontSize:{  xs: '13px' } }}>welcome to lugx</Typography>
+          <Typography variant='h1' sx={{ fontSize: { xs: '24px', lg: '60px' }, fontWeight: '900', padding: { xs: '2px' } }}>best gaming site ever!</Typography>
+          <Typography variant='p' sx={{ fontSize: { xs: '12px', lg: '15px' },padding:{xs:'0px 0px 0px 0px '}  }}>
             lugx gaming is free bootstrap 5 html css template for your gaming
             websites. you can download and use this layout for commercial
             purposes. please tell friends about tempalteMo.
           </Typography>
           <Stack action="" direction='row' justifyContent='center' sx={{ margin: { xs: '9px 0px', lg: '10px 0 ' },padding:{xs:'5px'} }}>
-            <TextField variant="outlined" sx={{ width: { xs: 200 }, height: { xs: 30 } }} />
-            <Button variant="contained" color="error" sx={{fontSize:{xs:'12px'}, width: { xs: 114 }, height: { xs: 30 } }}>
+            <TextField variant="outlined" sx={{ width: { xs: 170 }, height: { xs: 25 } }}    />
+            <Button variant="contained" color="error" sx={{fontSize:{xs:'10px'}, width: { xs: 100 }, height: { xs: 25 } }}>
               search now
             </Button>
           </Stack>

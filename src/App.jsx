@@ -6,6 +6,8 @@ import Top from '../src/compoents/Top/top.jsx'
 import { Box } from '@mui/material'
 import Categories from '../src/compoents/categories/Categories.jsx'
 import Footer from '../src/compoents/Footer.jsx'
+import Installed from '../src/compoents/Top_Installed/installed.jsx'
+
 export default function App() {
   return (
     <div>
@@ -14,6 +16,7 @@ export default function App() {
       <Service />
       <Top />
       <Trending />
+      <Installed/>
       <Categories />
       <Footer />
     </div>

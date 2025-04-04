@@ -1,8 +1,8 @@
-@media screen and (max-width:458px) {
+@media screen and (min-width:360px) {
 	
 	#logo-img {
-		width: 100px !important;
-		height: 40px;
+		width: 80px ;
+		height: 30px;
 	}
 
 	// background banner 
@@ -10,7 +10,7 @@
 		background: url('../../assets/banner-bg.jpg');
 		width: 100vw;
 		height: 100vh;
-		border-radius: 0px 0px 50px 50px;
+		border-radius: 0px 0px 10px 10px;
 		color: white;
 	}
 
@@ -22,7 +22,7 @@
 	.heroimg-div {
 		img {
 			border-radius: 0px;
-			height: 450px;
+			height: 440px;
 			width: 400px
 		}
 
@@ -33,9 +33,10 @@
 			bottom: 5%;
 			left: 5%;
 			background: blue;
-			padding: 15px 8px;
+			padding: 11px 4px;
 			border-radius: 100%;
-			font-weight: 600
+			font-weight: 600;
+			font-size: 13px;
 		}
 
 		.span-2 {
@@ -43,15 +44,16 @@
 			top: 5%;
 			right: 5%;
 			background: blue;
-			padding: 14px 10px;
+			padding: 10px 8px;
 			border-radius: 100%;
-			font-weight: 600
+			font-weight: 600;
+			font-size: 13px;
 		}
 	}
 
 	#banner-img {
-		width: 320px;
-		height: 370px;
+		width: 300px;
+		height: 350px;
 		background-position: center;
 		background-size: cover;
 		border-radius: 10px;

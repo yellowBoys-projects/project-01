@@ -1,18 +1,9 @@
-@media  screen and (max-width: 458px)  {
+@media  screen and (min-width: 360px)  {
 	#service-img {
-		padding: 16px;
+		padding: 8px;
 		border-radius: 100%;
-		background: #346bec;
-		width:80px;
+		background: #027E8C;
+		width:44px;
 	}
 }
 
-@media screen and (min-width: 458px) {
-	#service-img {
-		padding: 10px;
-		border-radius: 100%;
-		background: #346bec;
-		width: 70px;
-	}
-
-}

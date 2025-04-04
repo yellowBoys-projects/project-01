@@ -24,9 +24,8 @@ export default function service() {
 
 function ServiceCard(props) {
 	return (
-		<Box sx={{ display: 'flex', flexDirection: 'column', gap: { xs: '5px', lg: '10px' }, justifyContent: 'center', alignItems: 'center', padding: { xs: ' 0 5px ', lg: '0px 20px ' }, borderRadius: '10px', backgroundColor: '#ffff	', width: { lg: '250px' }, height: { lg: '200px' } }}>
+		<Box sx={{ display: 'flex', flexDirection: 'column', gap: { xs: '8px', lg: '10px' }, justifyContent: 'center', alignItems: 'center', padding: { xs: ' 0 5px ', lg: '0px 20px ' }, borderRadius: '10px', width: { xs:'80px',lg: '0px' }, height: { lg: '200px' } }}>
 			<img id="service-img" sx={{ width: { xs: '50%', lg: '20%' } }} width={100} src={props.img} alt={props.alt} />
-			<Typography variant='p' sx={{ fontSize: { xs: '15px', lg: '18px' },textAlign:'center' }}>{props.title}</Typography>
 		</Box>
 	)
 }

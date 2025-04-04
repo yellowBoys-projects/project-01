@@ -1,13 +1,13 @@
-@media  screen and (max-width: 458px) {
+@media  screen and (min-width: 360px) {
 	.top-section {
-	margin: 10px 10px;
+	margin: 30px 10px;
 }
 
 .grid{
 	display: grid;
 	grid-template-columns: auto ;
-	grid-gap: 30px;
-	margin: 0 10px;
+	grid-gap:20px;
+
 
 }
 #card-01{

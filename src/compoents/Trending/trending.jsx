@@ -3,6 +3,7 @@ import Img01 from '../../assets/categories-01.jpg'
 import Img02 from '../../assets/categories-03.jpg'
 import Img03 from '../../assets/categories-04.jpg'
 import Img04 from '../../assets/categories-05.jpg'
+import {Top_Card} from '../Top/top.jsx'
 
 import './trending.style.scss'
 
@@ -14,10 +15,10 @@ export default function Trending() {
 				<Typography variant='h6' sx={{ fontSize: { xs:'13px',lg: '16px' }, fontWeight: '400', padding: { lg: ' 0% 0% 0.2% 6%'},textAlign:'center' }}>trending</Typography>
 				<Typography variant='h2' sx={{ fontSize: {xs:'20px', lg: '25px' }, fontWeight: '500', padding: { xs:'0.5rem 0rem 0.9rem 0rem',lg: '0 0 0.1% 0%' } ,textAlign:'center'}}>trending games</Typography>
 				<Box className='trending-grid'>
-					<CardItem img={Img01} alt={'...'} types='action' title='assasin creed' />
-					<CardItem img={Img02} alt={'...'} types='action' title='assasin creed' />
-					<CardItem img={Img03} alt={'...'} types='action' title='assasin creed' />
-					<CardItem img={Img04} alt={'...'} types='action' title='assasin creed' />
+					<Top_Card img={Img01} alt={'...'} types='action' name='assasin creed' />
+					<Top_Card img={Img02} alt={'...'} types='action' name='assasin creed' />
+					<Top_Card img={Img03} alt={'...'} types='action' name='assasin creed' />
+					<Top_Card img={Img04} alt={'...'} types='action' name='assasin creed' />
 
 				</Box>
 			</Box>
@@ -26,33 +27,3 @@ export default function Trending() {
 	)
 }
 
-
-export function CardItem(props) {
-	return (
-		<Card sx={{ width: {xs:380},margin:'0 auto' }}>
-			<CardMedia
-				sx={{ height: 200, width: 380, backgroundColor: 'red', borderRadius: '10px' }}
-				image={props.img}
-				title="green iguana"
-			/>
-
-			<CardContent sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-				<Box>
-
-					<Typography sx={{fontSize:{xs:'16px'},textAlign:'start'}}>{props.types}</Typography>
-					<Typography sx={{fontSize:{xs:'20px'},fontWeight:'500',textAlign:'start'}}> {props.title}</Typography>
-				</Box>
-
-				<CardActions>
-					<Button variant='contained' color='error' sx={{padding:{xs:'5px 3px 3px 5px'}}}>more</Button>
-				</CardActions>
-
-			</CardContent>
-
-
-
-		</Card>
-
-
-	)
-}
