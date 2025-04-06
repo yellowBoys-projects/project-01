@@ -11,6 +11,9 @@ export default function Installed() {
 			<Stack id='grid'>
 				<SecondCompoment img={Img03}/>
 				<SecondCompoment img={Img03}/>
+				<SecondCompoment img={Img03}/>
+				<SecondCompoment img={Img03}/>
+				
 
 			</Stack>
 		</div>
@@ -20,10 +23,10 @@ export default function Installed() {
 function SecondCompoment(props){
 	return(
 		<div>
-		<Card sx={{position:'relative'}}>
-			<CardMedia image={props.img} sx={{height:{xs:182},width:{xs:317}}}/>
-			<CardContent sx={{position:'absolute',top:'50px',right:'90px'}}>
-				<Button variant='contained'>click to install</Button>
+		<Card sx={{position:'relative',maxWidth:{xs:400}}}>
+			<CardMedia image={props.img} sx={{height:{xs:250},width:{xs:400},borderRadius:'10px'}}/>
+			<CardContent sx={{position:'absolute',top:'40%',right:'20%'}}>
+				<Button variant='contained' color='error' sx={{padding:{xs:'10px'},fontSize:'18px'}}>click to install</Button>
 			</CardContent>
 		</Card>	
 		</div>

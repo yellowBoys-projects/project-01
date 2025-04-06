@@ -80,8 +80,8 @@ function Content() {
       <Stack direction={{ xs: 'col', lg: 'row' }} alignItems='center' justifyContent='space-between' spacing={{ xs: 1 }}>
         <Box sx={{ textAlign: 'center' ,maxWidth:{xs:320}}}>
           <Typography variant='p' sx={{ color: { xs: 'orange', sm: 'blue', md: 'green', lg: 'red', xl: 'yellow' }, fontSize:{  xs: '13px' } }}>welcome to lugx</Typography>
-          <Typography variant='h1' sx={{ fontSize: { xs: '24px', lg: '60px' }, fontWeight: '900', padding: { xs: '2px' } }}>best gaming site ever!</Typography>
-          <Typography variant='p' sx={{ fontSize: { xs: '12px', lg: '15px' },padding:{xs:'0px 0px 0px 0px '}  }}>
+          <Typography variant='h1' sx={{ fontSize: { xs: '30px', lg: '60px' }, fontWeight: '900', padding: { xs: '0px' } }}>best gaming site ever!</Typography>
+          <Typography variant='p' sx={{ fontSize: { xs: '15px', lg: '18px' },padding:{xs:'0px 0px 0px 0px '}  }}>
             lugx gaming is free bootstrap 5 html css template for your gaming
             websites. you can download and use this layout for commercial
             purposes. please tell friends about tempalteMo.

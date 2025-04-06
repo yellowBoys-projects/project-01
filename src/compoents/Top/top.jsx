@@ -26,14 +26,14 @@ export default function Top() {
 
 export function Top_Card(props) {
 	return (
-	<Box sx={{maxWidth:{xs:340},maxHeight:{xs:192}}}> 
-		<Card sx={{padding:{xs:'5px'},display:'flex',justifyContent:'space-between',alignItems:'center',backgroundColor:'#018291',color:'white'}}>
-			<CardMedia image={props.img} sx={{width:{xs:166},height:{xs:174},borderRadius:'10px'}}/>
-			<Box sx={{textAlign:'center',margin:{xs:'0px 5% 0px 0px'}}}>
-				<Typography sx={{fontSize:{xs:'13px'}}}>advanture</Typography>
-			<Typography sx={{fontSize:{xs:'15px'}}}>assasin creed</Typography>
-			<Typography sx={{fontSize:{xs:'24px'},fontWeight:'900'}}>action</Typography>
-			<Button variant={'contained'} color='error' sx={{margin:{xs:'16px 0px 0px 0px '},borderRadius:'10px',fontSize:{xs:'13px'}}}>click me</Button>
+	<Box sx={{maxWidth:{xs:370},maxHeight:{xs:250}}}> 
+		<Card sx={{width:{xs:370,height:250},padding:{xs:'10px'},display:'flex',justifyContent:'space-between',alignItems:'center',backgroundColor:'#018291',color:'white'}}>
+			<CardMedia image={props.img} sx={{width:{xs:200},height:{xs:200},borderRadius:'10px'}}/>
+			<Box sx={{textAlign:'center',margin:{xs:'0px 5% 0px 6px'}}}>
+				<Typography sx={{fontSize:{xs:'15px'}}}>advanture</Typography>
+			<Typography sx={{fontSize:{xs:'19px'}}}>assasin creed</Typography>
+			<Typography sx={{fontSize:{xs:'30px'},fontWeight:'900'}}>action</Typography>
+			<Button variant={'contained'} color='error' sx={{margin:{xs:'16px 0px 0px 0px '},borderRadius:'10px',fontSize:{xs:'16px'}}}>click me</Button>
 			</Box>
 		</Card>
 	</Box>
